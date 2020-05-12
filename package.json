@@ -1,0 +1,29 @@
+{
+  "name": "alexzissis.tech",
+  "version": "0.1.0",
+  "description": "New personal site for Alex Zissis",
+  "main": "dist/main.js",
+  "repository": "https://github.com/alex-zissis/alexzissis.tech",
+  "author": "Alex Zissis <alex@alexzissis.tech>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "next": "^9.3.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-sticky-el": "^2.0.5"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.7",
+    "@types/react-sticky-el": "^1.0.2",
+    "@zeit/next-sass": "^1.0.1",
+    "node-sass": "^4.14.1",
+    "typescript": "^3.8.3"
+  }
+}

@@ -1,0 +1,14 @@
+@import '../styles/variables';
+
+.az-blog__container {
+    flex-direction: row;
+}
+
+.az-blog__sidebar {
+    flex: 4;
+}
+
+.az-blog__content {
+    flex: 12;
+    height: 100%;
+}

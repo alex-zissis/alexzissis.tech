@@ -1,0 +1,17 @@
+$az-el-band-color-primary: #f7f7f7;
+$az-el-band-color-secondary: #eaeaea;
+
+.az-el-band {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 16px 24px;
+}
+
+.az-el-band.az-el-band-primary {
+    background-color: $az-el-band-color-primary;
+}
+
+.az-el-band.az-el-band-secondary {
+    background-color: $az-el-band-color-secondary;
+}

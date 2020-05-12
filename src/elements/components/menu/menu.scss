@@ -1,0 +1,35 @@
+@import '../../../styles/variables';
+@import '../../../styles/mixins';
+
+.az-el-menu {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 20px;
+}
+
+.az-el-menu__left {
+    flex: 4;
+    display: flex;
+    justify-content: space-between;
+
+    @include phone {
+        flex: 12;
+    }
+
+    @include tablet {
+        flex: 8;
+    }
+}
+
+.az-el-menu__right {
+    flex: 12;
+
+    @include phone {
+        flex: 4;
+    }
+
+    @include tablet {
+        flex: 8;
+    }
+}

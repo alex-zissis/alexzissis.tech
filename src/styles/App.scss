@@ -1,0 +1,36 @@
+@import './variables';
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $az-g-font-body;
+    font-weight: $az-g-font-weight-regular;
+    color: #fff;
+    background-color: $az-g-color-font;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+    border-bottom: 2px solid $az-g-color-primary;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $az-g-font-headings;
+    font-weight: $az-g-font-weight-bold;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 8px 0;
+}
